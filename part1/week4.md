@@ -20,7 +20,7 @@ generate the sum of two cubes for all possibilities from 1,8,27,...,(n-1)^3
 1.quicksort all the sums and traverse from the beginning  
 2. https://stackoverflow.com/a/23658420/7801448 very brilliant!
 
-**Elementary Symbol Tables**
+**Elementary Symbol Tables**  
 1.Java autoboxing and equals(). Consider two double values a and b and their corresponding <tt>Double</tt> values x and y.
 <pre>
 Find values such that (a==b) is true but x.equals(y) is false.
