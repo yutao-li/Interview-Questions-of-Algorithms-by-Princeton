@@ -1,4 +1,4 @@
-**Mergesort**  
+## Mergesort
 1.Merging with smaller auxiliary array. Suppose that the subarray a[0] to a[n−1] is sorted and the subarray a[n] to a[2∗n−1] is sorted. How can you merge the two subarrays so that a[0] to a[2∗n−1] is sorted using an auxiliary array of length nn (instead of 2n)?
 
 copy only the left half into the auxiliary array and then merge directly to the original array.
@@ -11,7 +11,7 @@ mergesort,in merge phase,sum the position leap of each element of the right suba
 
 similar to mergesort,but the key idea lies in how to merge two uniformly shuffled linked lists l1 and l2 of sizes n1 and n2 combined them into a uniformly shuffled linked lists of size n1 + n2. Actually, it's quite simple, just select the head of l1 with a probability of n1/(n1+n2), and select head of l2 with a probability of n2/(n1+n2), in this way, we can guarantee the uniform randomness. (The proof is not hard, omitted)
 
-**Quicksort**  
+## Quicksort
 1.Nuts and bolts. A disorganized carpenter has a mixed pile of nn nuts and nn bolts. The goal is to find the corresponding pairs of nuts and bolts. Each nut fits exactly one bolt and each bolt fits exactly one nut. By fitting a nut and a bolt together, the carpenter can see which one is bigger (but the carpenter cannot compare two nuts or two bolts directly). Design an algorithm for the problem that uses nlogn compares (probabilistically).
 
 https://www.geeksforgeeks.org/nuts-bolts-problem-lock-key-problem/
