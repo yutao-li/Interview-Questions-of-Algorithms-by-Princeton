@@ -1,4 +1,4 @@
-**Stacks and Queues**  
+## Stacks and Queues
 1.Queue with two stacks. Implement a queue with two stacks so that each queue operations takes a constant amortized number of stack operations.
 
 enqueue: push to one stack
@@ -12,7 +12,7 @@ use two stacks, one stores the data, another stores the max from the bottom to e
 
 https://www.quora.com/Why-does-Java-prohibit-generic-array-creation
 
-**Elementary Sorts**  
+## Elementary Sorts
 1.Intersection of two sets. Given two arrays a[] and b[], each containing n distinct 2D points in the plane, design a subquadratic algorithm to count the number of points that are contained both in array a[] and array b[].
 
 first sort and then count
