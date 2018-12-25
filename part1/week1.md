@@ -1,4 +1,4 @@
-***union-find***  
+## union-find
 1.Social network connectivity. Given a social network containing n members and a log file containing m timestamps at which times pairs of members formed friendships, design an algorithm to determine the earliest time at which all members are connected (i.e., every member is a friend of a friend of a friend ... of a friend). Assume that the log file is sorted by timestamp and that friendship is an equivalence relation. The running time of your algorithm should be mlogn or better and use extra space proportional to n.
 
 use weighted quick union until size of root reaches n
@@ -17,7 +17,7 @@ design a data type so that all operations (except construction) take logarithmic
 
 construct an array of n integers in order, link each element with the preceding one and the subsequent one, when remove x from, make the backward link of the element that x links forward to, denoted as f, point to what x links backward to, denoted as b, and make the forward link of b point to f.
 
-***Analysis of Algorithms***  
+## Analysis of Algorithms
 1.3-SUM in quadratic time. Design an algorithm for the 3-SUM problem that takes time proportional to n^2 in the worst case. You may assume that you can sort the n integers in time proportional to n^2 or better.
 
 Here's a method which makes no use of external storage(like hash table).first sort the array, let the sum be S, for each element i in the array, let W=S-i, start from the begin index and end index of array, if sum of two elements > W, decrease end index by 1, else increase begin index by 1, stop when the sum =W
