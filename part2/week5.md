@@ -22,4 +22,10 @@
 
    general idea:https://cs.stackexchange.com/questions/45570/how-do-i-find-a-regular-expression-for-a-particular-language
    
+2. Exponential-size DFA. Design a regular expressions of length n such that any DFA that recognizes the same language has an exponential number of states   
+
+   https://cs.stackexchange.com/questions/6063/how-to-prove-that-dfas-from-nfas-can-have-exponential-number-of-states
    
+3. Extensions to NFA. Add to NFA.java the ability to handle multiway or, wildcard, and the + closure operator.
+
+   omitted.
