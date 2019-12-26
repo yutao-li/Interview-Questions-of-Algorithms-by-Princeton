@@ -24,6 +24,6 @@
 3. Longest palindromic substring. Given a string s, find the longest substring that is a palindrome in expected linearithmic time.  
    Signing bonus: Do it in linear time in the worst case.   
    
-   given a parameter L, find all palindromic substrings of length exactly L in linear time using a Karp-Rabin strategy, how to judge? compute the hash of characters 0 to L/2-1 from left to right, and compute the hash of characters L-1 to L/2 from right to left, check if they are equal, thereby, we can use Karp-Rabin method to update both hashes(update methods of the two hash differ) and check the equality successively. And then use binary search to find the largest L.
+   manacher's algorithm
    
    
