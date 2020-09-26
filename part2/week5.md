@@ -29,3 +29,18 @@
 3. Extensions to NFA. Add to NFA.java the ability to handle multiway or, wildcard, and the + closure operator.
 
    omitted.
+   
+### Data Compression
+1. Ternary Huffman codes. Generalize the Huffman algorithm to codewords over the ternary alphabet (0, 1, and 2) instead of the binary alphabet. That is, given a bytestream, find a prefix-free ternary code that uses as few trits (0s, 1s, and 2s) as possible. Prove that it yields optimal prefix-free ternary code.
+
+   if it's not optimal, there exist some code that could be shorter, yet shorter code representations has been occupied by words with higher frequency, so it has to replace, then it cannot use fewer trits
+
+2. * Identify an optimal uniquely-decodable code that is neither prefix free nor suffix tree.
+   * Identify two optimal prefix-free codes for the same input that have a different distribution of codeword lengths.
+   
+   { 0011, 011, 11, 1110 } or { 01, 10, 011, 110 }.  
+   when building trees, if two subtrees are equally frequent, one tree chooses the lower one, the other choose the higher one
+   
+3. Move-to-front coding. Design an algorithm to implement move-to-front encoding so that each operation takes logarithmic time in the worst case. That is, maintain alphabet of symbols in a list. A symbol is encoded as the number of symbols that precede it in the list. After encoding a symbol, move it to the front of the list.
+
+   use segment tree to maintain prefix sum. idea similar to: https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/discuss/720548/O(n-logn)-or-Detailed-Explanation
